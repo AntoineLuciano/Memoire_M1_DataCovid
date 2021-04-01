@@ -7,4 +7,5 @@ Le code a été divisé en plusieurs fichiers .r, selon l'ordre des parties du m
 
 Certains fichiers reprennent donc des bouts de code des fichiers précédant, afin de travailler sur les mêmes dataframe.
 
-Afin d'utiliser le code, il faut enregistrer le dossier "Données_DataCovid" dans le même répertoire que le fichier .r
+Afin d'utiliser le code, il faut enregistrer le dossier "Données_DataCovid".
+Dans la fonction CsVtoR présente dans chaque fichier .r, il faut changer setwd(dir = "/Users/yanisbakhtaoui/Desktop/Mémoire/Data2"), en remplaçant "/Users/yanisbakhtaoui/Desktop/Mémoire/Data2" par le chemin d'accès au répertoire dans lequel vous avez enregistré le dossier.
